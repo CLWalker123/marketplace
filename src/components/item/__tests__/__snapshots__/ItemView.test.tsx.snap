@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemView renders the itemiew correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontFamily": "Oxygen_700Bold",
+        "fontSize": 48,
+      }
+    }
+  >
+    TV
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontFamily": "Oxygen_400Regular",
+        "fontSize": 24,
+      }
+    }
+  >
+    £4000
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#2b2b2b",
+          "fontFamily": "Oxygen_300Light",
+          "fontSize": 18,
+        }
+      }
+    >
+      Expires at 00:06:36
+    </Text>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        name="eye"
+        size={18}
+        style={
+          Object {
+            "marginHorizontal": 4,
+          }
+        }
+      />
+      <Text>
+        54
+      </Text>
+    </View>
+  </View>
+</View>
+`;

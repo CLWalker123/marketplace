@@ -1,0 +1,15 @@
+const COLORS = {
+  KEPPEL: '#49beaaff',
+  PURPLE: '#9381ffff',
+  FLAME: '#f05d23ff',
+  GHOST_WHITE: '#fbfbffff',
+  MIDNIGHT_GREEN: '#204b57ff',
+}
+
+export default {
+  LIGHT: COLORS.GHOST_WHITE,
+  DARK: COLORS.MIDNIGHT_GREEN,
+  HIGHLIGHT: COLORS.FLAME,
+  ACCENT: COLORS.PURPLE,
+  PRIMARY: COLORS.KEPPEL,
+}

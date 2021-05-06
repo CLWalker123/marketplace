@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeView renders the HomeEmptyView when no items are found 1`] = `<HomeEmptyView />`;
+
+exports[`HomeView renders the HomeView correctly when there is at least one item 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <HomeItemList
+    items={
+      Object {
+        "1": Object {
+          "id": "1",
+          "name": "TV",
+          "price": 400000,
+          "time_remaining": 18427,
+          "views": 54,
+        },
+      }
+    }
+  />
+</View>
+`;
