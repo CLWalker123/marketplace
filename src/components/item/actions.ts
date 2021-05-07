@@ -24,7 +24,6 @@ export const fetchAllItems = () => async (dispatch: Dispatch) => {
   dispatch({ type: FETCH_ITEMS.PENDING })
   try {
     const items = await fetchAllItemsApi();
-    console.log('!', items)
     dispatch({ type: FETCH_ITEMS.SUCCESS, items });
   } catch (error) {
     dispatch({ type: FETCH_ITEMS.FAILURE })
